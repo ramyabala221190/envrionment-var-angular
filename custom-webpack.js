@@ -6,8 +6,8 @@ dotenv.config();
 module.exports = {
     plugins: [
       new webpack.EnvironmentPlugin({
-        'environment':null,
-        'port':null,
+        'var1':null,
+        'var2':null,
         'jenkins_build_number':null,
         'url':null,
         'description':null

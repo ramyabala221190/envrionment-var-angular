@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'customWebpack';
   ngOnInit(){
-    console.log(`environment:${process.env["environment"]}
-       port : ${process.env["port"]}
+    console.log(`var1:${process.env["var1"]}
+       var2 : ${process.env["var2"]}
        jenkins_build_number:${process.env["jenkins_build_number"]}
        url:${process.env["url"]}
        description:${process.env["description"]}`
