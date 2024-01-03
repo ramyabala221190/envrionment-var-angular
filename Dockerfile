@@ -29,7 +29,7 @@ VOLUME /var/cache/nginx
 
 RUN rm -r /usr/share/nginx/html/*
 
-#Now I need to access the dist folder from the previous stage. 
+# Now I need to access the dist folder from the previous stage. 
 # I copy the dist folder into the folder that nginx uses to refer static files.
 COPY --from=node /app/dist/custom-webpack /usr/share/nginx/html/
 
