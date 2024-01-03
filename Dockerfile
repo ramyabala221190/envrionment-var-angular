@@ -4,6 +4,9 @@
 
 FROM node:alpine as node
 
+ARG jenkins_build_number
+
+ENV jenkins_build_number="${jenkins_build_number}"
 ENV url="http://localhost:8081"
 ENV description="We are testing environment variables in angular"
 
