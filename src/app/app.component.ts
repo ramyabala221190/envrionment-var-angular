@@ -11,9 +11,7 @@ export class AppComponent {
     console.log(
       `\nvar1:${process.env["var1"]}
        \nvar2 : ${process.env["var2"]}
-       \njenkins_build_number:${process.env["jenkins_build_number"]}
-       \nurl:${process.env["url"]}
-       \ndescription:${process.env["description"]}`
+       \njenkins_build_number:${process.env["jenkins_build_number"]}`
       )
   }
 }
